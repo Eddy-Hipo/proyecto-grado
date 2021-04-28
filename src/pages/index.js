@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import 'antd/dist/antd.css';
+import {Button} from "antd";
 
 export default function Home() {
   return (
@@ -11,8 +13,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Next.js! KAISER</a>
         </h1>
+        <Button type="primary">Primary Button</Button>
 
         <p className={styles.description}>
           Get started by editing{' '}
