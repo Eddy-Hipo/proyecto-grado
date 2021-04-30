@@ -9,7 +9,7 @@ const Foot = () => {
   return (
     <>
       <Footer style={{ textAlign: "center", backgroundColor: "#3D405B" }}>
-        <h3 style={{ color: "white" }}>Copyright ©2021 MinkanaEc</h3>
+        <h3 style={{ color: "white" }}>Copyright ©2021 MinkanaEc </h3>
       </Footer>
     </>
   );
